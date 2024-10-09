@@ -1,0 +1,166 @@
+/* Cart container */
+.cart-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Title */
+.cart-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Cart items section */
+.cart-items {
+    margin-top: 20px;
+}
+
+.cart-header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    border-bottom: 2px solid #000;
+    padding-bottom: 10px;
+}
+
+/* Individual cart item */
+.cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.cart-item-row {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Image */
+.cart-item img {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* Price and Quantity */
+.cart-item .price {
+    font-weight: bold;
+}
+
+.cart-item .quantity {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Remove button */
+.cart-item .remove-item {
+    color: red;
+    cursor: pointer;
+    font-size: 14px;
+    background: none;
+    border: none;
+    font-weight: bold;
+}
+
+.cart-item .remove-item:hover {
+    text-decoration: underline;
+}
+
+/* Cart bottom (subtotal, total, promo code) */
+.cart-bottom {
+    margin-top: 30px;
+}
+
+/* Cart total section */
+.cart-total {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.cart-total h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.cart-total-detail {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.cart-total-detail p {
+    margin: 0;
+}
+
+.cart-total-detail b {
+    font-weight: bold;
+}
+
+/* Checkout button */
+.cart-total button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.cart-total button:hover {
+    background-color: #218838;
+}
+
+/* Promo code section */
+.cart-promocode {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.cart-promocode p {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+/* Promo code input */
+.cart-promocode-input {
+    display: flex;
+    gap: 10px;
+}
+
+.cart-promocode-input input {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    flex: 1;
+}
+
+.cart-promocode-input button {
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.cart-promocode-input button:hover {
+    background-color: #0056b3;
+}
+
+/* Empty cart message */
+.cart-empty {
+    text-align: center;
+    color: #888;
+    font-size: 18px;
+    margin-top: 50px;
+}
